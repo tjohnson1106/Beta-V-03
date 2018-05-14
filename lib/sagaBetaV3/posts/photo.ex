@@ -1,6 +1,7 @@
 defmodule SagaBetaV3.Posts.Photo do
   use Ecto.Schema
   import Ecto.Changeset
+  alias SagaBetaV3Web.Posts.Photo
 
 
   schema "photos" do
