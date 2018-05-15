@@ -1,4 +1,4 @@
-defmodule InstagramWeb.Schema.PostsTypes do
+defmodule StoryBetaWeb.Schema.PostsTypes do
   use Absinthe.Schema.Notation
 
   object :photo do
