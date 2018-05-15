@@ -5,7 +5,7 @@ defmodule StoryBeta.Posts.Photo do
 
   schema "photos" do
     field :caption, :string
-    field :image_url, :string
+    field :image_url, :string 
 
     timestamps()
   end
