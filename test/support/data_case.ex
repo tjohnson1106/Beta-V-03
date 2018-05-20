@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 defmodule SagaBetaV3.DataCase do
+=======
+defmodule StoryBeta.DataCase do
+>>>>>>> d56f3c5fa6389bf65331331d54945619585cf187
   @moduledoc """
   This module defines the setup for tests requiring
   access to the application's data layer.
@@ -16,20 +20,35 @@ defmodule SagaBetaV3.DataCase do
 
   using do
     quote do
+<<<<<<< HEAD
       alias SagaBetaV3.Repo
+=======
+      alias StoryBeta.Repo
+>>>>>>> d56f3c5fa6389bf65331331d54945619585cf187
 
       import Ecto
       import Ecto.Changeset
       import Ecto.Query
+<<<<<<< HEAD
       import SagaBetaV3.DataCase
+=======
+      import StoryBeta.DataCase
+>>>>>>> d56f3c5fa6389bf65331331d54945619585cf187
     end
   end
 
   setup tags do
+<<<<<<< HEAD
     :ok = Ecto.Adapters.SQL.Sandbox.checkout(SagaBetaV3.Repo)
 
     unless tags[:async] do
       Ecto.Adapters.SQL.Sandbox.mode(SagaBetaV3.Repo, {:shared, self()})
+=======
+    :ok = Ecto.Adapters.SQL.Sandbox.checkout(StoryBeta.Repo)
+
+    unless tags[:async] do
+      Ecto.Adapters.SQL.Sandbox.mode(StoryBeta.Repo, {:shared, self()})
+>>>>>>> d56f3c5fa6389bf65331331d54945619585cf187
     end
 
     :ok

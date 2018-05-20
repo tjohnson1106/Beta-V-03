@@ -6,6 +6,7 @@
 use Mix.Config
 
 # General application configuration
+<<<<<<< HEAD
 config :sagaBetaV3,
   ecto_repos: [SagaBetaV3.Repo]
 
@@ -15,6 +16,17 @@ config :sagaBetaV3, SagaBetaV3Web.Endpoint,
   secret_key_base: "dHBHe1qviUjg+8MICJoIIsP+aIIqdg5eYgZsvZCERNyOiaiRoNM6aGM9r0O1ZbM4",
   render_errors: [view: SagaBetaV3Web.ErrorView, accepts: ~w(json)],
   pubsub: [name: SagaBetaV3.PubSub,
+=======
+config :storyBeta,
+  ecto_repos: [StoryBeta.Repo]
+
+# Configures the endpoint
+config :storyBeta, StoryBetaWeb.Endpoint,
+  url: [host: "localhost"],
+  secret_key_base: "F6qYU7NiVykhVsSm4jqSvKsZcqd/Wy1/rZvg+ZM8v4ZOr3pT2XDgqMNCAndLFD5Q",
+  render_errors: [view: StoryBetaWeb.ErrorView, accepts: ~w(json)],
+  pubsub: [name: StoryBeta.PubSub,
+>>>>>>> d56f3c5fa6389bf65331331d54945619585cf187
            adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger

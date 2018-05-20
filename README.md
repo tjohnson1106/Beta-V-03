@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # SagaBetaV3
+=======
+# StoryBeta
+>>>>>>> d56f3c5fa6389bf65331331d54945619585cf187
 
 To start your Phoenix server:
 
